@@ -1,0 +1,16 @@
+<div class="puzzle">
+  <h1>Puzzle Game</h1>
+  <div class="row" *ngFor="let row of puzzle; let i = index">
+    <div
+      class="tile"
+      *ngFor="let num of row; let j = index"
+      (click)="tileClicked(i, j)"
+    >
+      {{ num === 0 ? "" : num }}
+    </div>
+  </div>
+  <div class="suffleBtn">
+    <button *ngIf="gameFinished" (click)="shuffle()">Start</button>
+  </div>
+  <div class="win-message" *ngIf="winMessage">{{ winMessage }}</div>
+</div>
