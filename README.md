@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 git clone https://github.com/limadebarros/sliding-puzzle.git
 
 2. Install NPM packages
-npm install or yarn install
+> npm install or yarn install
 
 ## Running the application
 
