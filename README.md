@@ -6,11 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Clone the repository
 
-git clone https://github.com/limadebarros/sliding-puzzle.git
+> git clone https://github.com/limadebarros/sliding-puzzle.git
 
 2. Install NPM packages
 > npm install or yarn install
 
 ## Running the application
 
-Run `ng serve` and navigate to `http://localhost:4200/`. 
+> Run `ng serve` and navigate to `http://localhost:4200/`. 
